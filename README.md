@@ -1,8 +1,12 @@
 # Data Tactics
 
-A half-baked idea: Conceptual building blocks for data analysis. Analogy with [chess tactics](http://en.wikipedia.org/wiki/Chess_tactic) (vs. strategy).
+*Note: This is a half-baked work in progress.*
 
-The goal of this repository is to catalog these tactics, from the most obvious and basic to the more complex. The focus is on structured, [tabular](http://en.wikipedia.org/wiki/Table_(information)) data (rather than say, [network-graph](http://en.wikipedia.org/wiki/Graph_theory) data).
+In chess, there's a distinction between [__strategy__](http://en.wikipedia.org/wiki/Chess_strategy) and [__tactics__](http://en.wikipedia.org/wiki/Chess_tactic). Strategy relates to long-term plans, while tactics relate to short-term plans. Strategy takes years or decades to master; anyone can learn tactics in a matter of hours or days. Ultimately, strategy is composed of tactics, much like paintings are composed of brushstrokes. And, perhaps, much like data analysis is built upon data tactics.
+
+Chess tactics are, essentially, [short sequences of moves](http://www.chessfornovices.com/chessstrategyvstactics.html). Likewise, you can think of "data tactics" as short sequences of computational moves: adding all the numbers in a list, or sorting spreadsheets by a column. Individually, they won't win any games — or reveal any insight — on their own. But, in combination, they can add up to a powerful strategy.
+
+The goal of this repository is to catalog these tactics, from the most obvious and basic to the more complex.
 
 ## Summarizing Tactics
 
