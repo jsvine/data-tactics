@@ -21,6 +21,14 @@ Tactics that represent, in a single number, *something* about list of numbers.
 - Sum
 - [Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation)
 
+## Pairwise Tactics
+
+Tactics that work on a pair of numbers (or two lists of numbers).
+
+- Subtract
+- Multiply
+- Divide
+
 ## Transformational Tactics
 
 Tactics to transform individual bits of data.
@@ -31,14 +39,6 @@ Tactics to transform individual bits of data.
 - Extract features
 - Normalize (text)
 - Geocode (addresses -> lat/long)
-
-## Combinatory Tactics
-
-Tactics that combine two or more lists of data.
-
-- Subtraction
-- Multiplication
-- Division (e.g., X per capita)
 
 ## Comparative Tactics
 
