@@ -2,11 +2,11 @@
 
 *Note: This is a half-baked work in progress.*
 
-In chess, there's a distinction between [__strategy__](http://en.wikipedia.org/wiki/Chess_strategy) and [__tactics__](http://en.wikipedia.org/wiki/Chess_tactic). Strategy relates to long-term plans, while tactics relate to short-term plans. Strategy takes years or decades to master; anyone can learn tactics in a matter of hours or days. Ultimately, strategy is composed of tactics, much like paintings are composed of brushstrokes. And, perhaps, much like data analysis is built upon data tactics.
+Chess players distinguish between [__strategy__](http://en.wikipedia.org/wiki/Chess_strategy) and [__tactics__](http://en.wikipedia.org/wiki/Chess_tactic). Strategy: long-term plans; tactics: short-term plans. Strategy requires years or decades to master; you can learn the core tactics in just a few hours or days. Strategy builds upon tactics, much like paintings build upon brushstrokes, and, perhaps, data analysis builds upon "data tactics."
 
-Chess tactics are, essentially, [short sequences of moves](http://www.chessfornovices.com/chessstrategyvstactics.html). Likewise, you can think of "data tactics" as short sequences of computational moves: adding all the numbers in a list, or sorting spreadsheets by a column. Individually, they won't win any games — or reveal any insight — on their own. But, in combination, they can add up to a powerful strategy.
+Chess tactics are, essentially, [short sequences of moves](http://www.chessfornovices.com/chessstrategyvstactics.html). Likewise, "data tactics" could be thought of as short sequences of computational moves: adding all the numbers in a list, or sorting spreadsheets by a column.
 
-The goal of this repository is to catalog these tactics, from the most obvious and basic to the more complex.
+The goal of this repository is to catalog the most useful data tactics, from the most basic to the more complex.
 
 ## Summarizing Tactics
 
