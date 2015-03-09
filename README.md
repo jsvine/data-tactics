@@ -10,17 +10,16 @@ The goal of this repository is to catalog the most useful data tactics, from the
 
 ## Summarizing Tactics
 
-Tactics to summarize a list of numbers.
+Tactics that represent, in a single number, *something* about list of numbers.
 
 - Minimum
 - Maximum
-- Range
 - Mean
 - Median
 - Mode
 - Count
 - Sum
-- Standard deviation
+- [Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation)
 
 ## Transformational Tactics
 
