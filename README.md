@@ -39,6 +39,7 @@ Tactics to transform individual bits of data.
 - Extract features
 - Normalize (text)
 - Geocode (addresses -> lat/long)
+- Resample (time series data, e.g., day -> month)
 
 ## Comparative Tactics
 
