@@ -25,14 +25,12 @@ Tactics that represent, in a single number, *something* about list of numbers.
 
 Tactics to transform individual bits of data.
 
-- Round
-- Log(arithm)
-- Square root
+- Rescale (e.g., logarithm, square root, etc.)
 - Classify
-- Geocode
-- Dimensionality reduction
-- Feature extraction
-- Normalization (of text)
+- Reduce dimensions
+- Extract features
+- Normalize (text)
+- Geocode (addresses -> lat/long)
 
 ## Combinatory Tactics
 
