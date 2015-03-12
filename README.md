@@ -12,14 +12,22 @@ The data tactics below are roughly ordered from the simplest to the most complex
 
 Tactics that represent, in a single number, *something* about list of numbers.
 
-- Minimum
-- Maximum
-- Mean
-- Median
-- Mode
 - Count
+	- E.g., given a list of incomes for a town: *How many incomes were counted?*
 - Sum
+	- *What's the total income among this group?*
+- Mean
+	- *What's the average income?*
+- Minimum
+	- *What's the lowest income?*
+- Maximum
+	- *What's the highest income?*
+- Median
+	- *What income separates the top half of residents from the bottom half?*
+- Mode
+	- *What's the most common income?*
 - [Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation)
+	- *How much does income vary from resident to resident?*
 
 ## Pairwise Tactics
 
