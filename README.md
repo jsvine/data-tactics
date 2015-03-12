@@ -40,6 +40,7 @@ Tactics to transform individual bits of data.
 - Normalize (text)
 - Geocode (addresses -> lat/long)
 - Resample (time series data, e.g., day -> month)
+- Rolling average
 
 ## Comparative Tactics
 
