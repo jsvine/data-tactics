@@ -12,65 +12,65 @@ The data tactics below are roughly ordered from the simplest to the most complex
 
 Tactics that represent, in a single number, *something* about list of numbers.
 
-- Count
+- __Count__
 	- E.g., given a list of incomes for a town: *How many incomes were counted?*
-- Sum
+- __Sum__
 	- *What's the total income among this group?*
-- Mean
+- __Mean__
 	- *What's the average income?*
-- Minimum
+- __Minimum__
 	- *What's the lowest income?*
-- Maximum
+- __Maximum__
 	- *What's the highest income?*
-- Median
+- __Median__
 	- *What income separates the top half of residents from the bottom half?*
-- Mode
+- __Mode__
 	- *What's the most common income?*
-- [Standard deviation](http://en.wikipedia.org/wiki/Standard_deviation)
+- [__Standard deviation__](http://en.wikipedia.org/wiki/Standard_deviation)
 	- *How much does income vary from resident to resident?*
 
 ## Pairwise Tactics
 
 Tactics that work on a pair of numbers (or two lists of numbers).
 
-- Subtract
-- Multiply
-- Divide
+- __Subtract__
+- __Multiply__
+- __Divide__
 
 ## Transformational Tactics
 
 Tactics to transform individual bits of data.
 
-- Rescale (e.g., logarithm, square root, etc.)
-- Classify
-- Reduce dimensions
-- Extract features
-- Normalize (text)
-- Geocode (addresses -> lat/long)
-- Resample (time series data, e.g., day -> month)
-- Rolling average
+- __Rescale__ (e.g., logarithm, square root, etc.)
+- __Classify__
+- __Reduce dimensions__
+- __Extract features__
+- __Normalize__ (text)
+- __Geocode__ (addresses -> lat/long)
+- __Resample__ (time series data, e.g., day -> month)
+- __Rolling average__
 
 ## Comparative Tactics
 
 Tactics to compare one value to a broader set of numbers.
 
-- Rank
-- Percentiles / quantiles
-- Percent difference
-- Z-score
+- __Rank__
+- __Quantiles__ (e.g., percentiles)
+- __Percent difference__
+- __Z-score__
 
 ## Structural Tactics
 
 Tactics to reshape/reorganize data tables.
 
-- Sort
-- Filter/subset
-- Transpose
-- Join
+- __Sort__
+- __Filter/subset__
+- __Transpose__
+- __Join__
  
 ## Combinatory Tactics
 
-Tactics that combine two or more more basic tactics.
+Tactics that combine two or more basic tactics.
 
-- Grouped summary statistics
-- Crosstabs / pivot tables
+- __Grouped summary statistics__
+- __Crosstabs / pivot tables__
