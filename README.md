@@ -10,7 +10,7 @@ The data tactics below are roughly ordered from the simplest to the most complex
 
 ## Summarizing Tactics
 
-Tactics that represent, in a single number, *something* about list of numbers.
+Summarize a list of numbers into a single metric.
 
 - __Count__
 	- E.g., given a list of incomes for a town: *How many incomes were counted?*
@@ -31,7 +31,7 @@ Tactics that represent, in a single number, *something* about list of numbers.
 
 ## Pairwise Tactics
 
-Tactics that work on a pair of numbers (or two lists of numbers).
+Combine a pair of numbers into a single number. You can also apply pairwise tactics to two lists of numbers.
 
 - __Subtract__
 - __Multiply__
@@ -39,20 +39,17 @@ Tactics that work on a pair of numbers (or two lists of numbers).
 
 ## Transformational Tactics
 
-Tactics to transform individual bits of data.
+Transform an individual bit of data into another bit of data, based on some rule.
 
-- __Rescale__ (e.g., logarithm, square root, etc.)
-- __Classify__
-- __Reduce dimensions__
-- __Extract features__
-- __Normalize__ (text)
-- __Geocode__ (addresses -> lat/long)
+- __Classify__ (into categories
+- __Normalize__ (text into canonical representations, e.g., "ACME, Incorporated" & "Acme, inc." -> "ACME, Inc.")
 - __Resample__ (time series data, e.g., day -> month)
-- __Rolling average__
+- __Geocode__ (addresses -> lat/long)
+- __Rescale__ (e.g., into logarithmic scale)
 
 ## Comparative Tactics
 
-Tactics to compare one value to a broader set of numbers.
+Compare a number to its peers.
 
 - __Rank__
 - __Quantiles__ (e.g., percentiles)
@@ -61,16 +58,17 @@ Tactics to compare one value to a broader set of numbers.
 
 ## Structural Tactics
 
-Tactics to reshape/reorganize data tables.
+Reshape or reorganize tables of data.
 
 - __Sort__
 - __Filter/subset__
 - __Transpose__
 - __Join__
  
-## Combinatory Tactics
+## Grouping
 
-Tactics that combine two or more basic tactics.
+Grouping is a tactic of its own, and the connective tissue of many analyses. In grouped, or "aggregate," analyses, you split up your data into two or more groups, and then run calculations on those subsets.
 
-- __Grouped summary statistics__
-- __Crosstabs / pivot tables__
+
+
+
