@@ -14,14 +14,14 @@ Summarize a list of numbers into a single metric.
 
 - __Count__
 	- E.g., given a list of incomes for a town: *How many incomes were counted?*
-- __Sum__
-	- *What's the total income among this group?*
-- __Mean__
-	- *What's the average income?*
 - __Minimum__
 	- *What's the lowest income?*
 - __Maximum__
 	- *What's the highest income?*
+- __Sum__
+	- *What's the total income among this group?*
+- __Mean__
+	- *What's the average income?*
 - __Median__
 	- *What income separates the top half of residents from the bottom half?*
 - __Mode__
